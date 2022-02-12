@@ -1,0 +1,93 @@
+/* Font Family - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Font Family - Poppins */
+
+/* Universal Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Universal Reset */
+
+/* Root Variables */
+:root {
+  /* Colors */
+  --color-foreground: #111111;
+  --color-accents-one: #292929;
+  --color-accents-two: #464646;
+  --color-accents-three: #646464;
+  --color-accents-four: #818181;
+  --color-accents-five: #9e9e9e;
+  --color-accents-six: #dcdcdc;
+  --color-background: #fafafa;
+  /* Colors */
+
+  /* Greens */
+  --chinese-white: #daf1de;
+  --dark-sea-green: #8eb69b;
+  --brunswick-green: #235347;
+  --medium-jungle-green: #163832;
+  --phthalo-green: #0b2b26;
+  --dark-green: #051f20;
+  /* Greens */
+
+  /* Logo */
+  --plantation-green: #295c4f;
+  /* Logo */
+
+  /* Utilities */
+  /* Sizes */
+  --14-px: 0.875rem;
+  --16-px: 1rem;
+  --22-px: 1.375rem;
+  --24-px: 1.5rem;
+  --28-px: 1.75rem;
+  --32-px: 2rem;
+  --40-px: 2.5rem;
+  --42-px: 2.625rem;
+  --48-px: 3rem;
+  --56-px: 3.5rem;
+  --60-px: 3.75rem;
+  /* Sizes */
+
+  /* Weights */
+  --thin: 100;
+  --extra-light: 200;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+  --extra-bold: 800;
+  --black: 900;
+  /* Weights */
+
+  /* Box Shadow */
+  --box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  /* Box Shadow */
+  /* Utilities */
+}
+/* Root Variables */
+
+.logo {
+  width: 10rem;
+}
+
+/* Typeface */
+.h1 {
+  font-size: var(--48-px);
+}
+
+.h2 {
+  font-size: var(--32-px);
+}
+
+.h3 {
+  font-size: var(--28-px);
+}
+
+.p {
+  font-size: var(--14-px);
+}
+/* Typeface */

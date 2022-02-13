@@ -1,0 +1,29 @@
+/* Universal Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Universal Reset */
+
+a {
+  text-decoration: none;
+  font: inherit;
+  color: inherit;
+}
+
+a,
+i,
+button {
+  cursor: pointer;
+}
+
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+}

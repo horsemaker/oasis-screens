@@ -1,0 +1,147 @@
+.main-page {
+  margin-top: 7.5rem;
+  scroll-margin-top: 7.5rem;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.banner-subtitle {
+  width: 50ch;
+}
+
+.btn {
+  max-width: max-content;
+}
+
+.btn-teal {
+  background-color: var(--teal);
+  color: var(--color-background);
+}
+
+.banner-link {
+  font-size: var(--22-px);
+  font-weight: var(--semi-bold);
+  display: flex;
+  align-items: center;
+}
+
+.banner-images {
+  position: relative;
+}
+
+.banner-img-one {
+  margin-top: -3rem;
+  width: 33rem;
+  filter: brightness(120%);
+}
+
+.banner-img-two {
+  position: absolute;
+  left: -4.5rem;
+  top: 0;
+  z-index: -1;
+}
+
+.products-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.bestseller-section,
+.trending-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.bestseller-section > h1,
+.trending-section > h1 {
+  padding: 0.25rem 0;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  background-color: var(--green-one-200);
+}
+
+.products {
+  display: flex;
+  gap: 2rem;
+}
+
+.plant-section {
+  height: 36rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.plant-section-img {
+  width: 45%;
+  z-index: -1;
+}
+
+.plant-section-info {
+  width: 35%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section-img-one,
+.section-img-two {
+  transform: scale(1.25);
+}
+
+.section-img-three,
+.section-img-four,
+.section-img-five {
+  transform: scale(0.9);
+}
+
+.floating-img {
+  transform: scale(0.5) rotate(45deg);
+  position: absolute;
+  z-index: -2;
+}
+
+.floating-img-left {
+  left: -35%;
+}
+
+.floating-img-right {
+  right: -37%;
+}
+
+.floating-img-one {
+  top: -25%;
+}
+
+.floating-img-two {
+  top: 200%;
+}
+
+.floating-img-three {
+  top: 350%;
+}
+
+.floating-img-four {
+  top: 500%;
+}

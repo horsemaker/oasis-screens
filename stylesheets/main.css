@@ -2,13 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* Font Family - Poppins */
 
-/* Universal Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-/* Universal Reset */
+/* Horsemaker UI */
+@import url('https://horsemaker-ui.netlify.app/stylesheets/main.css');
+/* Horsemaker UI */
 
 /* Root Variables */
 :root {
@@ -24,20 +20,32 @@
   /* Colors */
 
   /* Greens */
-  --chinese-white: #daf1de;
-  --dark-sea-green: #8eb69b;
-  --brunswick-green: #235347;
-  --medium-jungle-green: #163832;
-  --phthalo-green: #0b2b26;
-  --dark-green: #051f20;
+  --green-one-700: #659e38;
+  --green-one-600: #70aa42;
+  --green-one-500: #86bc5c;
+  --green-one-400: #9dce77;
+  --green-one-300: #bbdf9e;
+  --green-one-200: #daf2c6;
+  --green-one-100: #f3faed;
+
+  --green-two-700: #8c9d3d;
+  --green-two-600: #a2b255;
+  --green-two-500: #b5c56a;
+  --green-two-400: #cddb8c;
+  --green-two-300: #e1ebb1;
+  --green-two-200: #f3fad4;
+  --green-two-100: #fdfff2;
   /* Greens */
 
-  /* Logo */
-  --plantation-green: #295c4f;
-  /* Logo */
+  /* Teal */
+  --teal: #0d9488;
+  /* Teal */
+
+  --footer-bg: #222222;
 
   /* Utilities */
   /* Sizes */
+  --12-px: 0.75rem;
   --14-px: 0.875rem;
   --16-px: 1rem;
   --22-px: 1.375rem;
@@ -71,12 +79,16 @@
 /* Root Variables */
 
 .logo {
-  width: 10rem;
+  width: 7.5rem;
 }
 
 /* Typeface */
-.h1 {
+.h1-48 {
   font-size: var(--48-px);
+}
+
+.h1-60 {
+  font-size: var(--60-px);
 }
 
 .h2 {
@@ -91,3 +103,226 @@
   font-size: var(--14-px);
 }
 /* Typeface */
+
+/* body */
+.body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+/* body */
+
+/* header */
+.header {
+  background-color: var(--color-background);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 4px var(--24-px);
+  color: var(--color-accents-three);
+  font-weight: var(--medium);
+  /* border-bottom: 2px solid var(--color-accents-six); */
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.brand-logo {
+  width: 10rem;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.25rem;
+  font-weight: var(--bold);
+}
+
+.navbar-link:hover {
+  color: var(--green-one-600);
+}
+
+.navbar-link-active {
+  color: var(--green-one-600);
+}
+
+.navbar-link-active:hover {
+  color: var(--green-one-700);
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--16-px);
+  color: var(--green-one-600);
+}
+
+.navbar-action {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-action:hover {
+  color: var(--green-one-700);
+}
+
+.navbar-icon {
+  font-size: var(--28-px);
+}
+
+.dropdown-content {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  border-color: var(--green-one-500);
+  padding: 0;
+  display: none;
+  top: 105%;
+  left: -100%;
+  position: absolute;
+  text-align: center;
+  font-weight: var(--semi-bold);
+  width: max-content;
+}
+
+.dropdown-content > li {
+  border-color: var(--green-one-500);
+}
+
+.dropdown-content > li:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.dropdown-content > li:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.dropdown-content > li:hover {
+  color: var(--green-one-700);
+}
+
+.navbar-action:hover .dropdown-content {
+  display: block;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+}
+
+.badge-content {
+  font-size: 10px;
+  color: var(--color-background);
+}
+
+.badge-color {
+  background-color: var(--color-foreground);
+}
+/* header */
+
+/* Highlight */
+.hl-green {
+  color: var(--green-one-700);
+}
+/* Highlight */
+
+/* Card */
+.card {
+  background-color: #fefefe;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-media {
+  border: none;
+}
+
+.card-subtitle {
+  color: black;
+  font-weight: var(--semi-bold);
+}
+
+.card-badge {
+  font-weight: var(--semi-bold);
+}
+
+.card-badge.bestseller {
+  background: var(--green-one-300);
+}
+
+.card-badge.trending {
+  background-color: var(--green-two-400);
+}
+/* Card */
+
+/* Footer */
+.footer {
+  margin-top: 2rem;
+  background-color: var(--footer-bg);
+  color: var(--color-background);
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-brand > p {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  color: var(--color-background);
+}
+
+.footer-actions {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-action {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-title {
+  color: var(--color-accents-six);
+  font-weight: var(--semi-bold);
+}
+
+.footer-list {
+  color: var(--color-accents-four);
+  gap: 0.5rem;
+}
+
+.footer-subscribe .input-group {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid var(--color-accents-four);
+}
+
+.footer-subscribe .input {
+  width: 20rem;
+  font-family: inherit;
+  border: none;
+}
+/* Footer */

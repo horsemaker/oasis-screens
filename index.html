@@ -5,8 +5,567 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Oasis</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="stylesheets/reset.css" />
     <link rel="stylesheet" href="stylesheets/main.css" />
     <link rel="stylesheet" href="stylesheets/home.css" />
   </head>
-  <body></body>
+  <body class="body">
+    <!-- || Header -->
+    <header class="header">
+      <nav class="navbar">
+        <section class="navbar-brand">
+          <a href="/">
+            <img
+              class="brand-logo"
+              src="assets/oasis-logo-rectangle.svg"
+              alt="Oasis"
+            />
+          </a>
+        </section>
+        <section class="navbar-menu">
+          <ul class="navbar-links">
+            <li class="navbar-link navbar-link-active">
+              <a href="/">Home</a>
+            </li>
+            <li class="navbar-link">
+              <a href="/">About Us</a>
+            </li>
+            <li class="navbar-link">
+              <a href="/">Products</a>
+            </li>
+          </ul>
+        </section>
+        <section class="navbar-actions">
+          <span class="material-icons navbar-action navbar-icon"> search </span>
+          <span class="navbar-action">
+            <a href="/">
+              <span class="badge badge-icon"
+                ><span class="material-icons navbar-icon"> shopping_cart</span>
+                <span class="badge-content badge-small badge-color badge-right"
+                  >2</span
+                ></span
+              >
+            </a>
+          </span>
+          <span class="navbar-action"
+            ><span class="material-icons navbar-icon"> perm_identity </span>
+            <ul
+              class="dropdown-content list-simple list-cursor-pointer list-style-none"
+            >
+              <li><a href="/">Sign In</a></li>
+              <li><a href="/">Wishlist</a></li>
+            </ul>
+          </span>
+        </section>
+      </nav>
+    </header>
+    <!-- || Header -->
+    <!-- || Main Page -->
+    <div class="main-page">
+      <!-- || Banner -->
+      <div class="banner">
+        <div class="banner-info">
+          <div class="banner-title">
+            <h1 class="h1-60">
+              Delivering <span class="hl-green">Plants</span>
+            </h1>
+            <h1 class="h1-60">
+              Delivering <span class="hl-green">Delight!</span>
+            </h1>
+          </div>
+          <div class="banner-subtitle">
+            <p>
+              Shop your favorite plants in your favorable factor, air-purifiers,
+              succulents, herbs, and more...
+            </p>
+          </div>
+          <button class="btn btn-link btn-teal">
+            <a class="banner-link">
+              Shop Now
+              <span class="material-icons"> chevron_right </span>
+            </a>
+          </button>
+        </div>
+        <div class="banner-images">
+          <img class="banner-img-one" src="assets/photo-1.png" alt="" />
+          <img class="banner-img-two" src="assets/blob-haikei.svg" alt="" />
+        </div>
+      </div>
+      <!-- || Banner -->
+      <!-- || Products Section -->
+      <div class="products-section">
+        <div class="bestseller-section">
+          <h1 class="h1-60">Our <span class="hl-green">Bestsellers</span></h1>
+          <div class="products products-bestseller">
+            <!-- Card One -->
+            <div class="card card-vertical">
+              <img
+                src="assets/Aloe/photo-1.jpg"
+                alt="headphones"
+                class="card-media"
+              />
+              <div class="card-primary">
+                <h2 class="card-title">Aloe</h2>
+                <h3 class="card-subtitle">by Oasis</h3>
+              </div>
+              <div class="card-actions">
+                <div class="card-action-buttons">
+                  <button class="btn btn-primary-sloid btn-teal">
+                    Add To Cart
+                  </button>
+                </div>
+                <div class="card-action-icons">
+                  <button class="card-action-icon top-right">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                  <button class="card-action-icon">
+                    <span class="material-icons"> share </span>
+                  </button>
+                </div>
+              </div>
+              <div class="card-badge bestseller hl">Bestseller</div>
+            </div>
+            <!-- Card One -->
+            <!-- Card Two -->
+            <div class="card card-vertical">
+              <img
+                src="assets/Snake-Plant/photo-1.jpg"
+                alt="headphones"
+                class="card-media"
+              />
+              <div class="card-primary">
+                <h2 class="card-title">Snake Plant</h2>
+                <h3 class="card-subtitle">by Oasis</h3>
+              </div>
+              <div class="card-actions">
+                <div class="card-action-buttons">
+                  <button class="btn btn-primary-sloid btn-teal">
+                    Add To Cart
+                  </button>
+                </div>
+                <div class="card-action-icons">
+                  <button class="card-action-icon top-right">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                  <button class="card-action-icon">
+                    <span class="material-icons"> share </span>
+                  </button>
+                </div>
+              </div>
+              <div class="card-badge bestseller hl">Bestseller</div>
+            </div>
+            <!-- Card Two -->
+            <!-- Card Three -->
+            <div class="card card-vertical">
+              <img
+                src="assets/Monstera/photo-1.jpg"
+                alt="headphones"
+                class="card-media"
+              />
+              <div class="card-primary">
+                <h2 class="card-title">Monstera</h2>
+                <h3 class="card-subtitle">by Oasis</h3>
+              </div>
+              <div class="card-actions">
+                <div class="card-action-buttons">
+                  <button class="btn btn-primary-sloid btn-teal">
+                    Add To Cart
+                  </button>
+                </div>
+                <div class="card-action-icons">
+                  <button class="card-action-icon top-right">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                  <button class="card-action-icon">
+                    <span class="material-icons"> share </span>
+                  </button>
+                </div>
+              </div>
+              <div class="card-badge bestseller hl">Bestseller</div>
+            </div>
+            <!-- Card Three -->
+            <!-- Card Four -->
+            <div class="card card-vertical">
+              <img
+                src="assets/Jade/photo-1.jpg"
+                alt="headphones"
+                class="card-media"
+              />
+              <div class="card-primary">
+                <h2 class="card-title">Jade</h2>
+                <h3 class="card-subtitle">by Oasis</h3>
+              </div>
+              <div class="card-actions">
+                <div class="card-action-buttons">
+                  <button class="btn btn-primary-sloid btn-teal">
+                    Add To Cart
+                  </button>
+                </div>
+                <div class="card-action-icons">
+                  <button class="card-action-icon top-right">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                  <button class="card-action-icon">
+                    <span class="material-icons"> share </span>
+                  </button>
+                </div>
+              </div>
+              <div class="card-badge bestseller hl">Bestseller</div>
+            </div>
+            <!-- Card Four -->
+          </div>
+        </div>
+        <div class="trending-section">
+          <h1 class="h1-60"><span class="hl-green">Trending</span> Flora</h1>
+          <div class="products products-trending">
+            <!-- Card One -->
+            <div class="card card-vertical">
+              <img
+                src="assets/ZZ/photo-1.jpg"
+                alt="headphones"
+                class="card-media"
+              />
+              <div class="card-primary">
+                <h2 class="card-title">ZZ Plant</h2>
+                <h3 class="card-subtitle">by Oasis</h3>
+              </div>
+              <div class="card-actions">
+                <div class="card-action-buttons">
+                  <button class="btn btn-primary-sloid btn-teal">
+                    Add To Cart
+                  </button>
+                </div>
+                <div class="card-action-icons">
+                  <button class="card-action-icon top-right">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                  <button class="card-action-icon">
+                    <span class="material-icons"> share </span>
+                  </button>
+                </div>
+              </div>
+              <div class="card-badge trending hl">Trending</div>
+            </div>
+
+            <!-- Card One -->
+            <!-- Card Two -->
+            <div class="card card-vertical">
+              <img
+                src="assets/Song-of-India/photo-1.jpg"
+                alt="headphones"
+                class="card-media"
+              />
+              <div class="card-primary">
+                <h2 class="card-title">Song of India</h2>
+                <h3 class="card-subtitle">by Oasis</h3>
+              </div>
+              <div class="card-actions">
+                <div class="card-action-buttons">
+                  <button class="btn btn-primary-sloid btn-teal">
+                    Add To Cart
+                  </button>
+                </div>
+                <div class="card-action-icons">
+                  <button class="card-action-icon top-right">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                  <button class="card-action-icon">
+                    <span class="material-icons"> share </span>
+                  </button>
+                </div>
+              </div>
+              <div class="card-badge trending hl">Trending</div>
+            </div>
+            <!-- Card Two -->
+            <!-- Card Three -->
+            <div class="card card-vertical">
+              <img
+                src="assets/Peace-Lily/photo-1.jpg"
+                alt="headphones"
+                class="card-media"
+              />
+              <div class="card-primary">
+                <h2 class="card-title">Peace Lily</h2>
+                <h3 class="card-subtitle">by Oasis</h3>
+              </div>
+              <div class="card-actions">
+                <div class="card-action-buttons">
+                  <button class="btn btn-primary-sloid btn-teal">
+                    Add To Cart
+                  </button>
+                </div>
+                <div class="card-action-icons">
+                  <button class="card-action-icon top-right">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                  <button class="card-action-icon">
+                    <span class="material-icons"> share </span>
+                  </button>
+                </div>
+              </div>
+              <div class="card-badge trending hl">Trending</div>
+            </div>
+            <!-- Card Three -->
+            <!-- Card Four -->
+            <div class="card card-vertical">
+              <img
+                src="assets/Palm/photo-1.jpg"
+                alt="headphones"
+                class="card-media"
+              />
+              <div class="card-primary">
+                <h2 class="card-title">Palm</h2>
+                <h3 class="card-subtitle">by Oasis</h3>
+              </div>
+              <div class="card-actions">
+                <div class="card-action-buttons">
+                  <button class="btn btn-primary-sloid btn-teal">
+                    Add To Cart
+                  </button>
+                </div>
+                <div class="card-action-icons">
+                  <button class="card-action-icon top-right">
+                    <span class="material-icons"> favorite_border </span>
+                  </button>
+                  <button class="card-action-icon">
+                    <span class="material-icons"> share </span>
+                  </button>
+                </div>
+              </div>
+              <div class="card-badge trending hl">Trending</div>
+            </div>
+            <!-- Card Four -->
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!-- || Products Section -->
+      <div class="plants-section">
+        <!-- || Plants Section One-->
+        <div class="plant-section">
+          <img
+            class="plant-section-img section-img-one"
+            src="assets/Storyset/Opened-bro.svg"
+            alt=""
+          />
+          <div class="plant-section-info">
+            <div class="plant-section-info-heading">
+              <h1 class="h1-48">
+                We are open <span class="hl-green">24/7</span>
+              </h1>
+              <h1>
+                We will deliver your plant in just
+                <span class="hl-green">2 days</span>
+              </h1>
+            </div>
+            <div class="plant-section-info-details">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                aliquid esse pariatur saepe excepturi odio, fuga ratione.
+                Inventore, excepturi corporis?
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- || Plants Section One-->
+        <!-- || Plants Section Two -->
+        <div class="plant-section">
+          <div class="plant-section-info">
+            <div class="plant-section-info-heading">
+              <h1 class="h1-48">
+                We are open <span class="hl-green">24/7</span>
+              </h1>
+              <h1>
+                We will deliver your plant in just
+                <span class="hl-green">2 days</span>
+              </h1>
+            </div>
+            <div class="plant-section-info-details">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                aliquid esse pariatur saepe excepturi odio, fuga ratione.
+                Inventore, excepturi corporis?
+              </p>
+            </div>
+          </div>
+          <img
+            class="plant-section-img section-img-two"
+            src="assets/Storyset/People taking care of plants-bro.svg"
+            alt=""
+          />
+        </div>
+        <!-- || Plants Section Two -->
+        <!-- || Plants Section Three -->
+        <div class="plant-section">
+          <img
+            class="plant-section-img section-img-three"
+            src="assets/Storyset/Florist-bro.svg"
+            alt=""
+          />
+          <div class="plant-section-info">
+            <div class="plant-section-info-heading">
+              <h1 class="h1-48">
+                We are open <span class="hl-green">24/7</span>
+              </h1>
+              <h1>
+                We will deliver your plant in just
+                <span class="hl-green">2 days</span>
+              </h1>
+            </div>
+            <div class="plant-section-info-details">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                aliquid esse pariatur saepe excepturi odio, fuga ratione.
+                Inventore, excepturi corporis?
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- || Plants Section Three -->
+        <!-- || Plants Section Four -->
+        <div class="plant-section">
+          <div class="plant-section-info">
+            <div class="plant-section-info-heading">
+              <h1 class="h1-48">
+                We are open <span class="hl-green">24/7</span>
+              </h1>
+              <h1>
+                We will deliver your plant in just
+                <span class="hl-green">2 days</span>
+              </h1>
+            </div>
+            <div class="plant-section-info-details">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                aliquid esse pariatur saepe excepturi odio, fuga ratione.
+                Inventore, excepturi corporis?
+              </p>
+            </div>
+          </div>
+          <img
+            class="plant-section-img section-img-four"
+            src="assets/Storyset/Sprout-bro.svg"
+            alt=""
+          />
+        </div>
+        <!-- || Plants Section Four -->
+        <!-- || Plants Section Five -->
+        <div class="plant-section">
+          <img
+            class="plant-section-img section-img-five"
+            src="assets/Storyset/Cactus lover-bro.svg"
+            alt=""
+          />
+          <div class="plant-section-info">
+            <div class="plant-section-info-heading">
+              <h1 class="h1-48">
+                Are you also a <span class="hl-green">cactus lover?</span>
+              </h1>
+              <h1>
+                We have a special
+                <span class="hl-green">60% discount</span> for you!
+              </h1>
+            </div>
+            <div class="plant-section-info-details">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                aliquid esse pariatur saepe excepturi odio, fuga ratione.
+                Inventore, excepturi corporis?
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- || Plants Section Five -->
+      </div>
+    </div>
+    <!-- || Main Page -->
+    <!-- || Footer -->
+    <footer class="footer">
+      <div class="footer-brand">
+        <a href=""
+          ><img
+            class="brand-logo"
+            src="assets/oasis-logo-white.svg"
+            alt="Oasis"
+        /></a>
+        <p>
+          <span>Copyright &copy; 2022 Oasis</span>
+          <span>All rights reserved</span>
+          <span class="footer-icons">
+            <i class="fa-brands fa-instagram footer-icon"></i>
+            <i class="fa-brands fa-linkedin-in footer-icon"></i>
+            <i class="fa-brands fa-facebook-f footer-icon"></i>
+          </span>
+        </p>
+      </div>
+      <div class="footer-actions">
+        <div class="footer-action footer-sitemap">
+          <h6 class="footer-title">Sitemap</h6>
+          <ul class="footer-list list-style-none list-spaced">
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Cart</a></li>
+          </ul>
+        </div>
+        <div class="footer-action footer-informative">
+          <h6 class="footer-title">Informative</h6>
+          <ul class="footer-list list-style-none list-spaced">
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-action footer-subscribe">
+          <h6 class="footer-title">Subscribe</h6>
+          <div class="input-group input-email">
+            <input
+              class="input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email address..."
+              required
+            />
+            <button>GO</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- || Footer -->
+    <!-- || Floating Images -->
+    <img
+      class="floating-img floating-img-left floating-img-one"
+      src="assets/blob-scene-haikei-one.svg"
+      alt=""
+    />
+    <img
+      class="floating-img floating-img-left floating-img-two"
+      src="assets/blob-scene-haikei-one.svg"
+      alt=""
+    />
+    <img
+      class="floating-img floating-img-left floating-img-three"
+      src="assets/blob-scene-haikei-one.svg"
+      alt=""
+    />
+    <img
+      class="floating-img floating-img-left floating-img-four"
+      src="assets/blob-scene-haikei-one.svg"
+      alt=""
+    />
+
+    <!-- <img
+      class="floating-img floating-img-right floating-img-four"
+      src="assets/blob-scene-haikei-two.svg"
+      alt=""
+    /> -->
+    <!-- || Floating Images -->
+  </body>
 </html>

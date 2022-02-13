@@ -285,7 +285,7 @@
 .footer-icons {
   margin-top: 1rem;
   display: flex;
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
 .footer-icon {
@@ -295,7 +295,7 @@
 
 .footer-actions {
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .footer-action {

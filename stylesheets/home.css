@@ -98,11 +98,22 @@
 }
 
 .plant-section-info {
-  width: 35%;
+  width: 37.5%;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.plant-section-info-link {
+  align-self: center;
+  font-size: 1.25rem;
+  font-weight: var(--medium);
+  color: var(--teal);
+  border-bottom: 1px solid var(--teal);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .section-img-one,
@@ -123,19 +134,19 @@
 }
 
 .floating-img-left {
-  left: -35%;
+  left: -17.5%;
 }
 
 .floating-img-right {
-  right: -37%;
+  right: -17.5%;
 }
 
 .floating-img-one {
-  top: -25%;
+  top: -15%;
 }
 
 .floating-img-two {
-  top: 200%;
+  top: 210%;
 }
 
 .floating-img-three {
@@ -143,5 +154,21 @@
 }
 
 .floating-img-four {
-  top: 500%;
+  top: 550%;
+}
+
+.floating-img-five {
+  top: 110%;
+}
+
+.floating-img-six {
+  top: 260%;
+}
+
+.floating-img-seven {
+  top: 470%;
+}
+
+.floating-img-eight {
+  top: 640%;
 }

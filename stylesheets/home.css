@@ -128,41 +128,41 @@
 }
 
 .floating-img {
-  transform: scale(0.5) rotate(45deg);
+  transform: scale(2.25);
   position: absolute;
   z-index: -2;
 }
 
 .floating-img-left {
-  left: -17.5%;
+  left: 0;
 }
 
 .floating-img-right {
-  right: -17.5%;
+  right: 0;
 }
 
 .floating-img-one {
-  top: -15%;
+  top: 10%;
 }
 
 .floating-img-two {
-  top: 210%;
+  top: 230%;
 }
 
 .floating-img-three {
-  top: 350%;
+  top: 370%;
 }
 
 .floating-img-four {
-  top: 550%;
+  top: 570%;
 }
 
 .floating-img-five {
-  top: 110%;
+  top: 135%;
 }
 
 .floating-img-six {
-  top: 260%;
+  top: 285%;
 }
 
 .floating-img-seven {
@@ -170,5 +170,5 @@
 }
 
 .floating-img-eight {
-  top: 640%;
+  top: 670%;
 }

@@ -1,0 +1,153 @@
+.main-page {
+  margin-top: 7.5rem;
+  scroll-margin-top: 7.5rem;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.banner-subtitle {
+  width: 50ch;
+}
+
+.btn {
+  max-width: max-content;
+}
+
+.btn-teal {
+  background-color: var(--teal);
+  color: var(--color-background);
+}
+
+.banner-link {
+  font-size: var(--22-px);
+  font-weight: var(--semi-bold);
+  display: flex;
+  align-items: center;
+}
+
+.banner-images {
+  position: relative;
+}
+
+.banner-img-one {
+  margin-top: -3rem;
+  width: 33rem;
+  filter: brightness(120%);
+}
+
+.banner-img-two {
+  position: absolute;
+  left: -4.5rem;
+  top: 0;
+  z-index: -1;
+}
+
+.products-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.bestseller-section,
+.trending-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.bestseller-section > h1,
+.trending-section > h1 {
+  padding: 0.25rem 0;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  background-color: var(--green-one-200);
+}
+
+.products {
+  display: flex;
+  gap: 2rem;
+}
+
+.plants-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.plant-section {
+  position: relative;
+  height: 36rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.plant-section-visual {
+  width: 40%;
+}
+
+.plant-section-img {
+  width: 100%;
+  z-index: -1;
+}
+
+.section-img-one {
+  width: 110%;
+}
+
+.plant-section-info {
+  width: 37.5%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.plant-section-info-link {
+  align-self: center;
+  font-size: 1.25rem;
+  font-weight: var(--medium);
+  color: var(--teal);
+  border-bottom: 1px solid var(--teal);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.floating-img-div {
+  width: 6rem;
+  position: absolute;
+  z-index: -2;
+}
+
+.floating-img {
+  width: 100%;
+}
+
+.floating-img-left {
+  left: -5rem;
+  top: -4rem;
+}
+
+.floating-img-right {
+  right: -5rem;
+  top: -6rem;
+}

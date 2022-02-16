@@ -273,6 +273,8 @@
 
 /* Footer */
 .footer {
+  position: absolute;
+  width: 100%;
   margin-top: 2rem;
   background-color: var(--footer-bg);
   color: var(--color-background);

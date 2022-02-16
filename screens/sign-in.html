@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In | Oasis</title>
+    <link rel="stylesheet" href="../stylesheets/reset.css" />
+    <link rel="stylesheet" href="../stylesheets/main.css" />
+    <link rel="stylesheet" href="../stylesheets/authentication.css" />
+  </head>
+  <body class="body">
+    <!-- || Header -->
+    <header class="header">
+      <nav class="navbar">
+        <section class="navbar-brand">
+          <a href="/">
+            <img
+              class="brand-logo"
+              src="../assets/oasis-logo-rectangle.svg"
+              alt="Oasis"
+            />
+          </a>
+        </section>
+        <section class="navbar-menu">
+          <ul class="navbar-links">
+            <li class="navbar-link">
+              <a href="/">Home</a>
+            </li>
+            <li class="navbar-link">
+              <a href="/">About Us</a>
+            </li>
+            <li class="navbar-link">
+              <a href="/">Products</a>
+            </li>
+          </ul>
+        </section>
+        <section class="navbar-actions">
+          <!-- <span class="material-icons navbar-action navbar-icon"> search </span> -->
+          <span class="navbar-action navbar-search">
+            <span class="material-icons navbar-icon navbar-search-icon">
+              search
+            </span>
+          </span>
+          <span class="navbar-action">
+            <a href="/">
+              <span class="badge badge-icon"
+                ><span class="material-icons navbar-icon"> shopping_cart</span>
+                <span class="badge-content badge-small badge-color badge-right"
+                  >2</span
+                ></span
+              >
+            </a>
+          </span>
+          <span class="navbar-action"
+            ><span class="material-icons navbar-icon"> perm_identity </span>
+            <ul
+              class="dropdown-content list-simple list-cursor-pointer list-style-none"
+            >
+              <li><a href="/screens/sign-in.html">Sign In</a></li>
+              <li><a href="/">Wishlist</a></li>
+            </ul>
+          </span>
+        </section>
+      </nav>
+    </header>
+    <!-- || Header -->
+    <div class="form-wrapper">
+     
+      <form class="form">
+        <h1>Sign In</h1>
+        <div class="input-group input-email">
+          <label for="form-email">Email*</label>
+          <input
+            class="input"
+            type="email"
+            name="form-email"
+            id="form-email"
+            placeholder="hey@example.com"
+            required
+          />
+        </div>
+        <div class="input-group input-password">
+          <label for="form-password">Password*</label>
+          <input
+            class="input"
+            type="password"
+            name="form-password"
+            id="form-password"
+            required
+          />
+        </div>
+        <div class="input-submit">
+          <button type="submit" class="btn btn-teal">
+            Sign In
+          </button>
+        </div>
+        <span class="auth-link-message">
+          New here?
+          <a class="auth-link" href="sign-up.html">Create an account!</a>
+        </span>
+      </form>
+      <!-- <div class="form-img-section">
+        <img class="form-img" src="../assets/photo-2.png" alt="" />
+        <img class="form-img-blob" src="../assets/blob-auth.svg" alt="" />
+      </div> -->
+    </div>
+    <!-- || Footer -->
+    <footer class="footer">
+      <div class="footer-brand">
+        <a href=""
+          ><img
+            class="brand-logo"
+            src="../assets/oasis-logo-white.svg"
+            alt="Oasis"
+        /></a>
+        <p>
+          <span>Copyright &copy; 2022 Oasis</span>
+          <span>All rights reserved</span>
+          <span class="footer-icons">
+            <i class="fa-brands fa-instagram footer-icon"></i>
+            <i class="fa-brands fa-linkedin-in footer-icon"></i>
+            <i class="fa-brands fa-facebook-f footer-icon"></i>
+          </span>
+        </p>
+      </div>
+      <div class="footer-actions">
+        <div class="footer-action footer-sitemap">
+          <h6 class="footer-title">Sitemap</h6>
+          <ul class="footer-list list-style-none list-spaced">
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Cart</a></li>
+          </ul>
+        </div>
+        <div class="footer-action footer-informative">
+          <h6 class="footer-title">Informative</h6>
+          <ul class="footer-list list-style-none list-spaced">
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-action footer-subscribe">
+          <h6 class="footer-title">Subscribe</h6>
+          <div class="input-group input-email">
+            <input
+              class="input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email address..."
+              required
+            />
+            <button>GO</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- || Footer -->
+  </body>
+</html>

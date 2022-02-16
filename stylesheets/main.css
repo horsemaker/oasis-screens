@@ -110,6 +110,7 @@
   color: var(--color-foreground);
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
+  position: relative;
 }
 /* body */
 
@@ -237,6 +238,17 @@
 }
 /* Highlight */
 
+/* Buttons */
+.btn {
+  max-width: max-content;
+}
+
+.btn-teal {
+  background-color: var(--teal);
+  color: var(--color-background);
+}
+/* Buttons */
+
 /* Card */
 .card {
   background-color: #fefefe;
@@ -273,9 +285,7 @@
 
 /* Footer */
 .footer {
-  position: absolute;
-  width: 100%;
-  margin-top: 2rem;
+  margin-top: 4rem;
   background-color: var(--footer-bg);
   color: var(--color-background);
   padding: 5rem;

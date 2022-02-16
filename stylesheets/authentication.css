@@ -1,0 +1,42 @@
+.form-wrapper {
+  margin-top: 7.5rem;
+  scroll-margin-top: 7.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+}
+
+.form-img-section {
+  margin-top: -5rem;
+  width: 40rem;
+  position: relative;
+}
+
+.form-img {
+  width: 100%;
+}
+
+.form-img-blob {
+  position: absolute;
+  left: 0;
+  top: 3rem;
+  z-index: -1;
+}
+
+.form {
+  /* padding: 5rem 3rem; */
+  flex-basis: 20rem;
+  background-color: #fefefe;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.auth-link-message {
+  font-size: var(--14-px);
+}
+
+.auth-link {
+  border-bottom: 1px solid;
+  color: var(--teal);
+}

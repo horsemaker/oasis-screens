@@ -25,15 +25,6 @@
   width: 50ch;
 }
 
-.btn {
-  max-width: max-content;
-}
-
-.btn-teal {
-  background-color: var(--teal);
-  color: var(--color-background);
-}
-
 .banner-link {
   font-size: var(--22-px);
   font-weight: var(--semi-bold);

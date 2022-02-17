@@ -7,6 +7,10 @@
 }
 
 .products-filter {
+  position: sticky;
+  top: 7.5rem;
+  max-height: 80vh;
+  overflow: auto;
   align-self: flex-start;
   flex-basis: 22.5%;
   max-width: 25rem;

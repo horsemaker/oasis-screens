@@ -21,7 +21,11 @@
   flex-direction: column;
   gap: 1.5rem;
   box-shadow: #63636333 0px 1px 4px 0px;
+}
 
+.products-filter::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
 }
 
 .filters-heading-section {

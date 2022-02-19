@@ -1,0 +1,67 @@
+.wishlist {
+  margin-top: 7.5rem;
+  scroll-margin-top: 7.5rem;
+  padding: 0 5rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-horizontal {
+  max-width: none;
+  width: 50rem;
+}
+
+.card-horizontal .card-media {
+  width: 27.5%;
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-price-original {
+  text-decoration: line-through;
+}
+
+.card-discount {
+  color: var(--teal);
+  font-weight: var(--semi-bold);
+}
+
+.card-actions {
+  margin-bottom: 1rem;
+}
+
+.card-horizontal .card-action-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.btn-float {
+  padding: 0.25rem;
+}
+
+.favorite-icon {
+  color: red;
+}
+
+.card-desc {
+  width: 100%;
+  max-width: 30rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+          line-clamp: 3; 
+  -webkit-box-orient: vertical;
+}
+
+.delete-icon {
+  color: var(--color-accents-five);
+}

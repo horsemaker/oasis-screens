@@ -23,6 +23,7 @@
 
 .banner-subtitle {
   width: 50ch;
+  max-width: 100%;
 }
 
 .banner-link {
@@ -141,4 +142,58 @@
 .floating-img-right {
   right: -5rem;
   top: -6rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .plant-section {
+    height: 25rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .h1-48 {
+    font-size: 2rem;
+  }
+}
+
+
+
+@media screen and (max-width: 985px) {
+  .products {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .banner-images {
+    display: none;
+  }
+
+  .plants-section {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .main-page {
+    padding: 0;
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .banner-subtitle {
+    width: 100%;
+  }
+
+  .h1-60 {
+    font-size: 3rem;
+  }
+
+  .floating-img {
+    display: none;
+  }
 }

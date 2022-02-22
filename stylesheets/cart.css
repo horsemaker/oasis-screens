@@ -124,3 +124,41 @@
   font-size: var(--22-px);
   font-weight: var(--semi-bold);
 }
+
+@media screen and (max-width: 1200px) {
+  .cart-main {
+    padding: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .cart-checkout {
+    width: 60%;
+    position: static;
+    align-self: center;
+    order: -1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-horizontal {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-horizontal {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .card-price {
+    flex-wrap: wrap;
+  }
+
+  .card-horizontal .card-media {
+    flex-basis: 100%;
+  }
+}

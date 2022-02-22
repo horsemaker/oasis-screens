@@ -18,6 +18,15 @@
   width: 27.5%;
 }
 
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
 .card-price {
   display: flex;
   align-items: center;
@@ -58,10 +67,38 @@
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 3; /* number of lines to show */
-          line-clamp: 3; 
+  line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 
 .delete-icon {
   color: var(--color-accents-five);
+}
+
+@media screen and (max-width: 900px) {
+  .wishlist {
+    padding: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .card-horizontal {
+    max-width: 100%;
+  }
+
+  .card-price {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .card-desc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .card-horizontal .card-media {
+    width: 50%;
+  }
 }

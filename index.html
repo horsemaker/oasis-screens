@@ -15,13 +15,31 @@
     <link rel="stylesheet" href="stylesheets/reset.css" />
     <link rel="stylesheet" href="stylesheets/main.css" />
     <link rel="stylesheet" href="stylesheets/home.css" />
-    <script src="javascript/main.js" async></script>
+    <script src="utils/hamburger.js" async></script>
   </head>
   <body class="body">
     <!-- || Header -->
+    <ul class="navbar-responsive-links">
+      <li class="navbar-link navbar-link-active">
+        <a href="/">Home</a>
+      </li>
+      <li class="navbar-link">
+        <a href="screens/product-listing.html">Products</a>
+      </li>
+      <li class="navbar-link">
+        <a href="screens/sign-in.html">Profile</a>
+      </li>
+      <li class="navbar-link">
+        <a href="screens/wishlist.html">Wishlist</a>
+      </li>
+      <li class="navbar-link">
+        <a href="#">About Us</a>
+      </li>
+    </ul>
     <header class="header">
       <nav class="navbar">
         <section class="navbar-brand">
+          <span class="material-icons navbar-menu-icon"> menu </span>
           <a href="/">
             <img
               class="brand-logo"

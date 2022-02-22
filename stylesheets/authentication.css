@@ -5,7 +5,6 @@
   align-items: center;
   justify-content: center;
   gap: 7.5rem;
-  /* justify-content: space-evenly; */
 }
 
 .form-img-section {
@@ -15,16 +14,8 @@
 }
 
 .form-img {
-  /* width: 100%; */
   width: 35rem;
 }
-
-/* .form-img-blob {
-  position: absolute;
-  left: 0;
-  top: 3rem;
-  z-index: -1;
-} */
 
 .form {
   padding: 2.5rem 2rem;
@@ -41,4 +32,10 @@
 .auth-link {
   border-bottom: 1px solid;
   color: var(--teal);
+}
+
+@media screen and (max-width: 1200px) {
+  .form-img {
+    display: none;
+  }
 }

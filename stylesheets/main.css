@@ -1,9 +1,9 @@
 /* Font Family - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* Font Family - Poppins */
 
 /* Horsemaker UI */
-@import url('https://horsemaker-ui.netlify.app/stylesheets/main.css');
+@import url("https://horsemaker-ui.netlify.app/stylesheets/main.css");
 /* Horsemaker UI */
 
 /* Root Variables */
@@ -108,7 +108,7 @@
 .body {
   background-color: var(--color-background);
   color: var(--color-foreground);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   position: relative;
 }
@@ -118,13 +118,15 @@
 .header {
   background-color: var(--color-background);
   position: fixed;
+  margin: unset;
+  width: unset;
+  border-bottom: 0;
   left: 0;
   right: 0;
   top: 0;
   padding: 4px var(--24-px);
   color: var(--color-accents-three);
   font-weight: var(--medium);
-  /* border-bottom: 2px solid var(--color-accents-six); */
   z-index: 3;
 }
 
@@ -141,12 +143,19 @@
   gap: 1rem;
 }
 
+.navbar-menu {
+  margin-left: unset;
+}
+
 .navbar-menu-icon {
   display: none;
 }
 
 .brand-logo {
   width: 10rem;
+  padding: 0;
+  border-radius: 0;
+  border: 0;
 }
 
 .navbar-responsive-links {
@@ -159,6 +168,7 @@
   gap: 2rem;
   font-size: 1.25rem;
   font-weight: var(--bold);
+  color: unset;
 }
 
 .navbar-link:hover {
@@ -192,6 +202,7 @@
 }
 
 .navbar-icon {
+  display: unset;
   font-size: var(--28-px);
 }
 
@@ -419,5 +430,13 @@
 
   .overflowY-hidden {
     overflow-y: hidden;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-icon {
+    padding: unset;
+    border: unset;
+    border-radius: 0;
   }
 }
